@@ -71,7 +71,7 @@ sr.reveal('.game-container')
 sr.reveal('.game-container',{delay: 300})
 
 /*=============== CREATE HTML ===============*/
-const IMG_PATH = './cover/';
+const IMG_PATH = './images/cover/';
 
 const container = document.getElementById("game-container");
 const detailClose = document.getElementById('detail-close')
@@ -158,7 +158,6 @@ fetch('./db/game.json')
 				info.removeChild(publishedyear);
 				info.removeChild(type);
 				info.removeChild(comment);
-				detailContent.classList.add('show-detail');
 			})
 		}
 	 
